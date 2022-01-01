@@ -512,7 +512,7 @@ below or a buffer local variable 'no-mode-line'."
 
 (setq eshell-status-in-modeline nil)
 ;; (setq-default mode-line-format (list "%-"))
-(setq-default mode-line-format "")
+;;(setq-default mode-line-format "")
 (nano-modeline)
 
 (provide 'nano-modeline)
